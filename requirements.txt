@@ -13,9 +13,7 @@ ipython==2.3.0
 lxml==3.4.0
 matplotlib==1.4.2
 mock==1.0.1
-# get it here: https://github.com/matplotlib/natgrid/archive/master.zip
-# install using python setup.py
-natgrid==0.2.1
+git+git://github.com/matplotlib/natgrid/@master
 numpy==1.9.1
 pandas==0.15.1
 patsy==0.3.0
