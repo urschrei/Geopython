@@ -24,4 +24,4 @@ Unless otherwise specified, all other files are provided under the [MIT License]
 
 [Plaques_Geopandas](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/plaques_geopandas.ipynb): demonstrates [Geopandas](http://geopandas.org) and its spatial join functionality, used to create a choropleth.
 
-![rainfall](data/london_plaque_density.png "Just a boring choropleth")
+![rainfall](data/london_plaque_density.png "Just a boring choropleth. Boropleth.")
