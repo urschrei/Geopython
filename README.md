@@ -1,6 +1,6 @@
 # Basic Geo and Spatial Analysis Techniques Using Python #
 
-![rainfall](data/rainfall_griddata.png "Make it rain")
+![rainfall](data/rainfall_griddata_gh.png "Make it rain")
 
 This is a repository of various geo/spatial analysis techniques using Python libraries, chiefly Numpy, Pandas, Shapely, Fiona, Descartes, Matplotlib, and Matplotlib-Basemap.
 
