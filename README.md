@@ -19,6 +19,10 @@ Finally, the map is partitioned into *clipped* Voronoi cells based on the sensor
 
 ![rainfall](data/london_plaque_density.png "Just a boring choropleth. Boropleth.")
 
+[Circles](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/circles.ipynb): demonstrates drawing circles with correct distortion characteristics on a map (the dot-shaded circle is erroneously non-distorted). The helper library used to plot the circles is available [here](https://github.com/urschrei/Circles).
+
+![circular](data/circles.png "Borges's 'The Circular Ruins' is a good story. Also an apt title for my PhD.")
+
 ---
 ## Installation and usage
 
