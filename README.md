@@ -17,7 +17,7 @@ Finally, the map is partitioned into *clipped* Voronoi cells based on the sensor
 
 [Bikepath](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/bikepath.ipynb): we take a list of London bicycle hire stations, create a DataFrame of all possible origin and destination pairs, and then use MapZen's wonderful [open OSRM endpoint](https://mapzen.com/blog/osrm-services) to get valid bicycle routes between them. Then we plot those routes (it's just the first 100 – there are over 490k origin / destination pairs in total) on a map.
 
-![bikes](data/london_bike_routes.png)
+![bikes](data/london_bike_routes_gh.png)
 
 [Plaques_Geopandas](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/plaques_geopandas.ipynb): demonstrates [Geopandas](http://geopandas.org) and its spatial join functionality, used to create a choropleth.
 
