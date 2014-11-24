@@ -19,7 +19,9 @@ Finally, the map is partitioned into *clipped* Voronoi cells based on the sensor
 
 ![bikes](data/london_bike_routes_gh.png)
 
-[Isochrone](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/isochrone.ipynb): computing an isochrone for our sample bike network from an origin at Abbey Orchard Street. The cost function is calculated from Dijkstra's Shortest Path Length, weighted by the travel time between the origin and destinations.
+[Isochrone](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/isochrone.ipynb): computing an isochrone for our sample bike network from an origin at Abbey Orchard Street. The cost function is calculated from Dijkstra's [Single-Source Shortest Path Length](https://networkx.github.io/documentation/latest/reference/algorithms.shortest_paths.html), weighted by the travel time between the origin and destinations.
+
+![iso](data/isochrone_gh.png)
 
 [Plaques_Geopandas](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/plaques_geopandas.ipynb): demonstrates [Geopandas](http://geopandas.org) and its spatial join functionality, used to create a choropleth.
 
