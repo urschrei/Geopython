@@ -15,11 +15,11 @@ Finally, the map is partitioned into *clipped* Voronoi cells based on the sensor
 
 ![voronoi](data/voronoi_gh.png "Cellular")
 
-[Bikepath](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/bikepath.ipynb): we take a list of London bicycle hire stations, create a DataFrame of all possible origin and destination pairs, and then use MapZen's wonderful [open OSRM endpoint](https://mapzen.com/blog/osrm-services) to get valid bicycle routes between them. Then we plot those routes (it's just the first 100 – there are over 490k origin / destination pairs in total) on a map.
+[Bikepath](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/bikepath.ipynb): takes a subset of London bicycle hire stations, creates a DataFrame of all possible origin and destination pairs, and then uses MapZen's wonderful [open OSRM endpoint](https://mapzen.com/blog/osrm-services) to get valid bicycle routes between them. These routes are then plotted (it's just the first 400 – there are over 490k origin / destination pairs in total) on a map.
 
 ![bikes](data/london_bike_routes_gh.png)
 
-[Isochrone](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/isochrone.ipynb): computing an isochrone for our sample bike network from an origin at Abbey Orchard Street. The cost function is calculated from Dijkstra's [Single-Source Shortest Path Length](https://networkx.github.io/documentation/latest/reference/algorithms.shortest_paths.html), weighted by the travel time between the origin and destinations.
+[Isochrone](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/isochrone.ipynb): an [isochrone](http://en.wikipedia.org/wiki/Isochrone_map) is computed for the complete London bike network from an origin at its centroid. The cost function is calculated from Dijkstra's [Single-Source Shortest Path Length](https://networkx.github.io/documentation/latest/reference/algorithms.shortest_paths.html), weighted by the travel time between the origin and destinations.
 
 ![iso](data/isochrone_centroid_gh.png)
 
