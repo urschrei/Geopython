@@ -25,7 +25,7 @@ Finally, the map is partitioned into *clipped* Voronoi cells based on the sensor
 
 [Isochrone](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/isochrone.ipynb): an [isochrone](http://en.wikipedia.org/wiki/Isochrone_map) is computed for the complete London bike network from an origin at its centroid. The cost function is calculated from Dijkstra's [Single-Source Shortest Path Length](https://networkx.github.io/documentation/latest/reference/algorithms.shortest_paths.html), weighted by the travel time between the origin and destinations.
 
-[![Isochrone](data/isochrone_centroid_gh.png)](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/isochrone.ipynb "The Burning Eye of Bike Hire")
+[![Isochrone](data/isochrone_gh.gif)](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/isochrone.ipynb "The Burning Eye of Bike Hire")
 
 [Plaques_Geopandas](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/plaques_geopandas.ipynb): demonstrates [Geopandas](http://geopandas.org) and its spatial join functionality, used to create a choropleth.
 
