@@ -1,8 +1,12 @@
 # Basic Geo and Spatial Analysis Techniques Using Python #
 
-![rainfall](data/rainfall_interpolation.gif "Make it rain")
+[![Make it rain](data/rainfall_interpolation.gif)](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/convert.ipynb "Anigifs are the future of spatial analysis")
 
 This is a repository of various geo/spatial analysis techniques using Python libraries, chiefly Numpy, Pandas, Shapely, Fiona, Descartes, Matplotlib, and Matplotlib-Basemap.
+
+I'm making these notebooks, tutorials, and libraries while embroiled in a PhD at the [Bartlett Centre for Advanced Spatial Analysis](http://www.bartlett.ucl.ac.uk/casa), at [UCL](http://www.ucl.ac.uk). Click the logo for details of available postgraduate courses.
+
+[![CASA](data/casa_black.png)](http://www.bartlett.ucl.ac.uk/casa/programmes/postgraduate "Bloomsbury is lovely, you know.")
 
 ## The Notebooks
 
@@ -13,23 +17,23 @@ This is a repository of various geo/spatial analysis techniques using Python lib
 [Contour](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/contour.ipynb): demonstrates interpolation of irregularly-spaced point data (mean rainfall) into a regular grid, calculating a contour plot, and imposing it onto a basemap (see graphic above). I then compare two approaches for generating surfaces – Delaunay Natural Neighbour (`matplotlib.griddata`), and refinement of a coarse Delaunay mesh using `matplotlib.UniformTriRefiner`, which uses recursive subdivision and cubic interpolation. High-res images are available in the [data](data) folder, all beginning with `rainfall_`. :umbrella::umbrella::umbrella:  
 Finally, the map is partitioned into *clipped* Voronoi cells based on the sensor locations, and some plotting methods (more flexible than `scipy.spatial.voronoi2d`) are shown.  
 
-![voronoi](data/voronoi_gh.png "Cellular")
+[![Cellular](data/voronoi_gh.png)](https://raw.githubusercontent.com/urschrei/Geopython/master/data/voronoi.png "Tesselate Everything")
 
 [Bikepath](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/bikepath.ipynb): takes a subset of London bicycle hire stations, creates a DataFrame of all possible origin and destination pairs, and then uses MapZen's wonderful [open OSRM endpoint](https://mapzen.com/blog/osrm-services) to get valid bicycle routes between them. These routes are then plotted (it's just the first 400 – there are over 490k origin / destination pairs in total) on a map.
 
-![bikes](data/london_bike_routes_gh.png)
+[![Bikepath](data/london_bike_routes_gh.png)](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/bikepath.ipynb "Unpleasantly vascular, no?")
 
 [Isochrone](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/isochrone.ipynb): an [isochrone](http://en.wikipedia.org/wiki/Isochrone_map) is computed for the complete London bike network from an origin at its centroid. The cost function is calculated from Dijkstra's [Single-Source Shortest Path Length](https://networkx.github.io/documentation/latest/reference/algorithms.shortest_paths.html), weighted by the travel time between the origin and destinations.
 
-![iso](data/isochrone_centroid_gh.png)
+[![Isochrone](data/isochrone_centroid_gh.png)](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/isochrone.ipynb "The Burning Eye of Bike Hire")
 
 [Plaques_Geopandas](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/plaques_geopandas.ipynb): demonstrates [Geopandas](http://geopandas.org) and its spatial join functionality, used to create a choropleth.
 
-![rainfall](data/london_plaque_density_gh.png "Just a boring choropleth. Boropleth.")
+[![Choropleth](data/london_plaque_density_gh.png)](http://sensitivecities.com/so-youd-like-to-make-a-map-using-python-EN.html "Boropleth")
 
 [Circles](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/circles.ipynb): demonstrates drawing circles with correct distortion characteristics on a map (the dot-shaded circle is erroneously non-distorted). The helper library used to plot the circles is available [here](https://github.com/urschrei/Circles).
 
-![circular](data/circles.png "Borges's 'The Circular Ruins' is a good story. Also an apt title for my PhD.")
+[![Circles](data/circles.png)](https://github.com/urschrei/Circles "Borges's 'The Circular Ruins' is a good story. Also an apt title for my PhD.")
 
 ---
 ## Installation and usage
