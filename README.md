@@ -1,10 +1,10 @@
-# Basic Geo and Spatial Analysis Techniques Using Python #
+# Geocomputation, Cartography, and Spatial Analysis Techniques Using Python
 
 [![Make it rain](data/rainfall_interpolation.gif)](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/convert.ipynb "Anigifs are the future of spatial analysis")
 
 This is a repository of various geo/spatial analysis techniques using Python libraries, chiefly Numpy, Pandas, Shapely, Fiona, Descartes, Matplotlib, and Matplotlib-Basemap.
 
-I'm making these notebooks, tutorials, and libraries while embroiled in a PhD at the [Bartlett Centre for Advanced Spatial Analysis](http://www.bartlett.ucl.ac.uk/casa), at [UCL](http://www.ucl.ac.uk). Click the logo for details of available postgraduate courses.
+I'm working on these notebooks, tutorials, and libraries while embroiled in a PhD at the [Bartlett Centre for Advanced Spatial Analysis](http://www.bartlett.ucl.ac.uk/casa), at [UCL](http://www.ucl.ac.uk).
 
 [![CASA](data/casa_black.png)](http://www.bartlett.ucl.ac.uk/casa/programmes/postgraduate "Bloomsbury is lovely, you know.")
 
@@ -23,7 +23,7 @@ Finally, the map is partitioned into *clipped* Voronoi cells based on the sensor
 
 [![Bikepath](data/london_bike_routes_gh.png)](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/bikepath.ipynb "Unpleasantly vascular, no?")
 
-[Isochrone](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/isochrone.ipynb): an [isochrone](http://en.wikipedia.org/wiki/Isochrone_map) is computed for the complete London bike network from an origin at its centroid. The cost function is calculated from Dijkstra's [Single-Source Shortest Path Length](https://networkx.github.io/documentation/latest/reference/algorithms.shortest_paths.html), weighted by the travel time between the origin and destinations.
+[Isochrone](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/isochrone.ipynb): an [isochrone](http://en.wikipedia.org/wiki/Isochrone_map) is computed for the complete London bike network from an origin at its centroid. Given a network of stations, [Single-Source Shortest Path Length](https://networkx.github.io/documentation/latest/reference/algorithms.shortest_paths.html), weighted by the travel time between the origin and destinations can be used to generate travel times – though this isn't necessary for a single origin.
 
 [![Isochrone](data/isochrone_gh.gif)](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/isochrone.ipynb "The Burning Eye of Bike Hire")
 
