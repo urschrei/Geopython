@@ -1,4 +1,4 @@
-# Geocomputation, Cartography, and Spatial Analysis Techniques Using Python
+## Geocomputation, Cartography, and Spatial Analysis Techniques Using Python
 
 [![Make it rain](data/rainfall_interpolation.gif)](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/convert.ipynb "Anigifs are the future of spatial analysis")
 
@@ -8,7 +8,7 @@ I'm working on these notebooks, tutorials, and libraries while embroiled in a Ph
 
 [![CASA](data/casa_black.png)](http://www.bartlett.ucl.ac.uk/casa/programmes/postgraduate "Bloomsbury is lovely, you know.")
 
-## The Notebooks
+### The Notebooks
 
 [Convert](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/convert.ipynb): demonstrates point, choropleth, and hexbin mapping techniques using pandas and Matplotlib Basemap  
 
@@ -36,11 +36,11 @@ Finally, the map is partitioned into *clipped* Voronoi cells based on the sensor
 [![Circles](data/circles.png)](https://github.com/urschrei/Circles "Borges's 'The Circular Ruins' is a good story. Also an apt title for my PhD.")
 
 ---
-## Installation and usage
+### Installation and usage
 
 Note that for most users, the Enthought [Canopy](https://www.enthought.com/products/canopy/) Python distribution is probably the best way to get the required libraries (You'll have to install Folium and GeoPandas separately – they aren't included). However, feel free to install the libraries manually using `requirements.txt` if you know what you're doing, in which case you'll also need various compilers (GCC, Fortran), and libraries (GDAL, GEOS). The use of a [virtualenv](http://virtualenv.readthedocs.org/en/latest/) is advised.
 
-# License  
+### License  
 © Stephan Hügel 2014  
 
 Unless otherwise specified, the [wards.geojson](wards.geojson) file and any UK shapefiles are provided under
