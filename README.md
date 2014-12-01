@@ -27,7 +27,7 @@ Finally, the map is partitioned into *clipped* Voronoi cells based on the sensor
 
 [![Isochrone](data/isochrone_gh.gif)](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/isochrone.ipynb "The Burning Eye of Bike Hire")
 
-[![Inset](data/inset_gh.png)](hhttps://raw.githubusercontent.com/urschrei/Geopython/master/data/inset.png "Yo Dawg")
+[![Inset](data/inset_gh.png)](https://raw.githubusercontent.com/urschrei/Geopython/master/data/inset.png "Yo Dawg")
 
 [Plaques_Geopandas](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/plaques_geopandas.ipynb): demonstrates [Geopandas](http://geopandas.org) and its spatial join functionality, used to create a choropleth.
 
