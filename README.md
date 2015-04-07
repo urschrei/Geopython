@@ -21,7 +21,7 @@ I'm working on these notebooks, tutorials, and libraries while embroiled in a Ph
 [Contour](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/contour.ipynb): demonstrates interpolation of irregularly-spaced point data (mean rainfall) into a regular grid, calculating a contour plot, and imposing it onto a basemap (see graphic below). Two approaches for calculating continuous surfaces are then compared – Delaunay Natural Neighbour (`matplotlib.griddata`), and refinement of a coarse Delaunay mesh using `matplotlib.UniformTriRefiner`, which uses recursive subdivision and cubic interpolation. High-res images are available in the [data](data) folder, all beginning with `rainfall_`. :umbrella::umbrella::umbrella:  
 Finally, the map is partitioned into *clipped* Voronoi cells based on the sensor locations, and some plotting methods (more flexible than `scipy.spatial.voronoi2d`) are shown.  
 
-[![Make it rain](data/rainfall_interpolation.gif)](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/convert.ipynb "Anigifs are the future of spatial analysis")
+[![Make it rain](data/rainfall_interpolation.gif)](http://nbviewer.ipython.org/github/urschrei/Geopython/blob/master/contour.ipynb "Anigifs are the future of spatial analysis")
 
 [![Cellular](data/voronoi_gh.png)](https://raw.githubusercontent.com/urschrei/Geopython/master/data/voronoi.png "Tesselate Everything")
 
