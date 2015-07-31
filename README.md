@@ -14,6 +14,10 @@ I'm working on these notebooks, tutorials, and libraries while embroiled in a Ph
 
 [Convert_Folium](convert_folium.ipynb): demonstrates the use of the [Folium](https://github.com/wrobstory/folium) library for creating web-based maps from Python data (pandas) using [Leaflet](http://leafletjs.com) to generate a choropleth map
 
+[Router Comparison](https://gist.github.com/urschrei/4c21d0e27f188eac5a74): Compares Journey time from the London Cycle Hire network centroid to 555 stations, calculated using both [OSRM](https://mapzen.com/blog/osrm-sunset) and Mapzen's new [Valhalla](https://gist.github.com/urschrei/4c21d0e27f188eac5a74#file-osrm_vs_valhalla-ipynb) router, and visualises the duration vs distance clusters using [k-means++](https://gist.github.com/urschrei/4c21d0e27f188eac5a74#file-osrm_vs_valhalla-ipynb)
+
+[![Routers](data/combined_gh.png)](https://gist.github.com/urschrei/4c21d0e27f188eac5a74#file-osrm_vs_valhalla-ipynb "Valhalla")
+
 [WLS](https://github.com/urschrei/linalg/blob/master/notebooks/weighted_least_squares.ipynb): demonstrates the use of weighted least-squares estimation of similarity and affine transforms to calculate parameters for a transformation matrix which can be used to transform and align coordinates. This approach is useful for e.g. georeferencing raster data, and map feature alignment and correction.
 
 [![weighted](https://raw.githubusercontent.com/urschrei/linalg/master/WLS.png)](https://github.com/urschrei/linalg/blob/master/notebooks/weighted_least_squares.ipynb "Weighty")
