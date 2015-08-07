@@ -14,7 +14,7 @@ I'm working on these notebooks, tutorials, and libraries while embroiled in a Ph
 
 [Convert_Folium](convert_folium.ipynb): demonstrates the use of the [Folium](https://github.com/wrobstory/folium) library for creating web-based maps from Python data (pandas) using [Leaflet](http://leafletjs.com) to generate a choropleth map
 
-[Router Comparison](https://github.com/urschrei/router_comparison): Compares Journey time from the London Cycle Hire network centroid to 555 stations, calculated using both [OSRM](https://mapzen.com/blog/osrm-sunset) and Mapzen's new [Valhalla](https://mapzen.com/projects/valhalla/) router, and visualises the duration vs distance clusters using [k-means++](https://en.wikipedia.org/wiki/K-means%2B%2B)
+[Router Comparison](https://github.com/urschrei/router_comparison): analyses route characteristics of journeys from the London Cycle Hire network centroid to 554 stations, calculated using [OSRM](https://mapzen.com/blog/osrm-sunset), Mapzen's new [Valhalla](https://mapzen.com/projects/valhalla/) router, and the [Google Maps Directions API](https://developers.google.com/maps/documentation/directions/intro).
 
 [![Routers](https://github.com/urschrei/router_comparison/blob/master/route_distance_gh.png)](https://github.com/urschrei/router_comparison "IT'S CALLED VALHALLA. LIKE IN FURY ROAD. AAAAA. I LIVE. I DIE. I LIVE AGAIN!")
 
