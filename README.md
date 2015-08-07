@@ -16,7 +16,7 @@ I'm working on these notebooks, tutorials, and libraries while embroiled in a Ph
 
 [Router Comparison](https://github.com/urschrei/router_comparison): Compares Journey time from the London Cycle Hire network centroid to 555 stations, calculated using both [OSRM](https://mapzen.com/blog/osrm-sunset) and Mapzen's new [Valhalla](https://mapzen.com/projects/valhalla/) router, and visualises the duration vs distance clusters using [k-means++](https://en.wikipedia.org/wiki/K-means%2B%2B)
 
-[![Routers](data/combined_gh.png)](https://github.com/urschrei/router_comparison "IT'S CALLED VALHALLA. LIKE IN FURY ROAD. AAAAA. I LIVE. I DIE. I LIVE AGAIN!")
+[![Routers](https://github.com/urschrei/router_comparison/blob/master/route_distance_gh.png)](https://github.com/urschrei/router_comparison "IT'S CALLED VALHALLA. LIKE IN FURY ROAD. AAAAA. I LIVE. I DIE. I LIVE AGAIN!")
 
 [WLS](https://github.com/urschrei/linalg/blob/master/notebooks/weighted_least_squares.ipynb): demonstrates the use of weighted least-squares estimation of similarity and affine transforms to calculate parameters for a transformation matrix which can be used to transform and align coordinates. This approach is useful for e.g. georeferencing raster data, and map feature alignment and correction.
 
