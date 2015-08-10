@@ -4,7 +4,7 @@
 
 This is a repository of various geo/spatial analysis techniques using Python libraries, chiefly Numpy, Pandas, Shapely, Fiona, Descartes, Matplotlib, and Matplotlib-Basemap.
 
-I'm working on these notebooks, tutorials, and libraries while embroiled in a PhD at the [Bartlett Centre for Advanced Spatial Analysis](http://www.bartlett.ucl.ac.uk/casa), at [UCL](http://www.ucl.ac.uk).
+These tutorials, visualisations, and libraries are an occasional side effect of being embroiled in a PhD at the [Bartlett Centre for Advanced Spatial Analysis](http://www.bartlett.ucl.ac.uk/casa), at [UCL](http://www.ucl.ac.uk), and teaching on the undergraduate [Data Science and Visualisation](http://www.ucl.ac.uk/basc/prospective/core/qm2/#tabs-2) course.
 
 [![CASA](data/casa_black.png)](http://www.bartlett.ucl.ac.uk/casa/programmes/postgraduate "Bloomsbury is lovely, you know.")
 
@@ -60,7 +60,7 @@ Unless otherwise specified, the [wards.geojson](wards.geojson) file and any UK s
 [Crown Copyright](http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright/crown-copyright/), and their use must be acknowledged in any output by reproducing the following notice:
 
 `Contains Ordnance Survey data  
-© Crown copyright and database right 2014`
+© Crown copyright and database right 2015`
 
 Unless otherwise specified, all other files are provided under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
 
