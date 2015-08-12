@@ -9,7 +9,7 @@ click==3.3
 descartes==1.0.1
 folium==0.1.2
 gnureadline==6.3.3
-ipython==2.3.0
+jupyter[all]
 lxml==3.4.0
 matplotlib==1.4.2
 mock==1.0.1
@@ -22,7 +22,7 @@ pyproj==1.9.3
 python-dateutil==2.2
 pytz==2014.9
 pyzmq==14.4.1
-requests==2.4.3
+requests[security]
 scipy==0.14.0
 six==1.8.0
 statsmodels==0.6.0
