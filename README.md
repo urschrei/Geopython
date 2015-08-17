@@ -43,7 +43,7 @@ Finally, the map is partitioned into *clipped* Voronoi cells based on the sensor
 
 [Circles](circles.ipynb): demonstrates drawing circles with correct distortion characteristics on a map (the dot-shaded circle is erroneously non-distorted). The helper library used to plot the circles is available [here](https://github.com/urschrei/Circles).
 
-[Rust BNG](https://github.com/urschrei/rust_bng/blob/master/rust_BNG.ipynb): A demonstration of writing a [Rust](http://www.rust-lang.org) library, and linking it to Python using FFI, in order to carry out fast Longitude and Latitude to British Nation Grid transformations, using multithreading. I've blogged about the process [here](http://sensitivecities.com/rust-python-ffi-bng-EN.html).
+[Rust BNG](https://github.com/urschrei/rust_bng/blob/master/rust_BNG.ipynb): A demonstration of writing a [Rust](http://www.rust-lang.org) library, and linking it to Python using FFI, in order to carry out fast Longitude and Latitude to British National Grid transformations, using multithreading. I've blogged about the process [here](http://sensitivecities.com/rust-python-ffi-bng-EN.html).
 
 [![Circles](data/circles_gh.png)](https://github.com/urschrei/Circles "Borges's 'The Circular Ruins' is a good story. Also an apt title for my PhD.")
 
