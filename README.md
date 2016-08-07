@@ -40,10 +40,17 @@ Finally, the map is partitioned into *clipped* Voronoi cells based on the sensor
 [Plaques_Geopandas](plaques_geopandas.ipynb): demonstrates [Geopandas](http://geopandas.org) and its spatial join functionality, used to create a choropleth.
 
 [![Choropleth](data/london_plaque_density_gh.png)](http://sensitivecities.com/so-youd-like-to-make-a-map-using-python-EN.html "Boropleth")
-
+## Libraries
 [Circles](circles.ipynb): demonstrates drawing circles with correct distortion characteristics on a map (the dot-shaded circle is erroneously non-distorted). The helper library used to plot the circles is available [here](https://github.com/urschrei/Circles).
 
-[Rust BNG](https://github.com/urschrei/rust_bng/blob/master/rust_BNG.ipynb): A demonstration of writing a [Rust](http://www.rust-lang.org) library, and linking it to Python using FFI, in order to carry out fast Longitude and Latitude to British National Grid transformations, using multithreading. I've blogged about the process [here](http://sensitivecities.com/rust-python-ffi-bng-EN.html).
+[Lonlat-BNG](https://github.com/urschrei/lonlat_bng/blob/master/rust_BNG.ipynb): A demonstration of writing a [Rust](http://www.rust-lang.org) library, and linking it to Python using FFI, in order to carry out fast Longitude and Latitude to British National Grid transformations, using multithreading. I've blogged about the process [here](http://sensitivecities.com/rust-python-ffi-bng-EN.html). The Python library is available [here](https://github.com/urschrei/convertbng).
+
+[Polyline-FFI](https://github.com/urschrei/polyline-ffi)  
+A Python library for encoding and decoding Google encoded polylines, using a Rust binary and FFI.
+
+[RDP](https://github.com/urschrei/rdp)  
+A Rust implementation of the Ramer–Douglas–Peucker line simplification algorithm. Includes an FFI wrapper.
+
 
 [![Circles](data/circles_gh.png)](https://github.com/urschrei/Circles "Borges's 'The Circular Ruins' is a good story. Also an apt title for my PhD.")
 
