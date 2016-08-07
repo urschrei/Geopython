@@ -1,6 +1,6 @@
 ## Geocomputation, Cartography, and Spatial Analysis Techniques Using Python
 
-[![Inset](data/inset_gh.png)](https://raw.githubusercontent.com/urschrei/Geopython/master/data/inset.png "Yo Dawg")
+[![Inset](data/inset_gh.png)](isochrone.ipynb "Yo Dawg")
 
 This is a repository of various geo/spatial analysis techniques using Python libraries, chiefly Numpy, Pandas, Shapely, Fiona, Descartes, Matplotlib, and Matplotlib-Basemap.
 
