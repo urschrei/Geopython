@@ -62,7 +62,7 @@ A Rust implementation of the Mapbox Polylabel algorithm, which determines optimu
 ### Installation and usage
 
 Note that for most users, the Enthought [Canopy](https://www.enthought.com/products/canopy/) Python distribution is probably the best way to get the required libraries (You'll have to install Folium and GeoPandas separately – they aren't included). However, feel free to install the libraries manually using `requirements.txt` if you know what you're doing, in which case you'll also need various compilers (GCC, Fortran), and libraries (GDAL, GEOS). The use of a [virtualenv](http://virtualenv.readthedocs.org/en/latest/) is advised.  
-`rust_bng` Requires a Rust installation. Install it using homebrew, or one of the [installers](http://www.rust-lang.org/install.html), for *nix or Windows.
+The Rust libraries (though not their Python counterparts) require a Rust installation. For most platforms (OS X, Windows, *nix), using [rustup.rs](https://rustup.rs) is the easiest way to install and update a Rust installation.
 
 ### License  
 © Stephan Hügel 2014  
