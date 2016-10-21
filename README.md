@@ -41,9 +41,11 @@ Finally, the map is partitioned into *clipped* Voronoi cells based on the sensor
 
 [![Choropleth](data/london_plaque_density_gh.png)](http://sensitivecities.com/so-youd-like-to-make-a-map-using-python-EN.html "Boropleth")
 ## Libraries
-[Circles](circles.ipynb): demonstrates drawing circles with correct distortion characteristics on a map (the dot-shaded circle is erroneously non-distorted). The helper library used to plot the circles is available [here](https://github.com/urschrei/Circles).
+[Circles](circles.ipynb)  
+Demonstrates drawing circles with correct distortion characteristics on a map (the dot-shaded circle is erroneously non-distorted). The helper library used to plot the circles is available [here](https://github.com/urschrei/Circles).
 
-[Lonlat-BNG](https://github.com/urschrei/lonlat_bng/blob/master/rust_BNG.ipynb): A demonstration of writing a [Rust](http://www.rust-lang.org) library, and linking it to Python using FFI, in order to carry out fast Longitude and Latitude to British National Grid transformations, using multithreading. I've blogged about the process [here](http://sensitivecities.com/rust-python-ffi-bng-EN.html). The Python library is available [here](https://github.com/urschrei/convertbng).
+[Lonlat-BNG](https://github.com/urschrei/lonlat_bng/blob/master/rust_BNG.ipynb)  
+A demonstration of writing a [Rust](http://www.rust-lang.org) library, and linking it to Python using FFI, in order to carry out fast Longitude and Latitude to British National Grid transformations, using multithreading. I've blogged about the process [here](http://sensitivecities.com/rust-python-ffi-bng-EN.html). The Python library is available [here](https://github.com/urschrei/convertbng).
 
 [Polyline-FFI](https://github.com/urschrei/polyline-ffi)  
 A Python library for encoding and decoding Google encoded polylines, using a Rust binary and FFI.
@@ -51,7 +53,7 @@ A Python library for encoding and decoding Google encoded polylines, using a Rus
 [RDP](https://github.com/urschrei/rdp)  
 A Rust implementation of the Ramer–Douglas–Peucker line simplification algorithm. Includes an FFI wrapper.
 
-[Polylabel-rs](https://github.com/urschrei/polylabel-rs)
+[Polylabel-rs](https://github.com/urschrei/polylabel-rs)  
 A Rust implementation of the Mapbox Polylabel algorithm, which determines optimum label placement on a polygon by calculating its pole of inaccessibility. The library has an FFI and includes a sample Python script which demonstrates its use (I know Shapely also includes the algorithm, but it's a pure-Python implementation, and this one is…somewhat faster)
 
 [![Circles](data/circles_gh.png)](https://github.com/urschrei/Circles "Borges's 'The Circular Ruins' is a good story. Also an apt title for my PhD.")
