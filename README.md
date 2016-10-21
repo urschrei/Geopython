@@ -47,7 +47,7 @@ Demonstrates drawing circles with correct distortion characteristics on a map (t
 [Lonlat-BNG](https://github.com/urschrei/lonlat_bng/blob/master/rust_BNG.ipynb)  
 A demonstration of writing a [Rust](http://www.rust-lang.org) library, and linking it to Python using FFI, in order to carry out fast Longitude and Latitude to British National Grid transformations, using multithreading. I've blogged about the process [here](http://sensitivecities.com/rust-python-ffi-bng-EN.html). The Python library is available [here](https://github.com/urschrei/convertbng).
 
-[Polyline-FFI](https://github.com/urschrei/polyline-ffi)  
+[Pypolyline](https://github.com/urschrei/pypolyline)  
 A Python library for encoding and decoding Google encoded polylines, using a Rust binary and FFI.
 
 [RDP](https://github.com/urschrei/rdp)  
