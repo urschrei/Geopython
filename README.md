@@ -54,7 +54,7 @@ A Python library for encoding and decoding Google encoded polylines, using a Rus
 A Rust implementation of the Ramer–Douglas–Peucker line simplification algorithm. Includes an FFI wrapper.
 
 [Polylabel-rs](https://github.com/urschrei/polylabel-rs)  
-A Rust implementation of the Mapbox Polylabel algorithm, which determines optimum label placement on a polygon by calculating its pole of inaccessibility. The library has an FFI and includes a sample Python script which demonstrates its use (I know Shapely also includes the algorithm, but it's a pure-Python implementation, and this one is…somewhat faster)
+A Rust implementation of the Mapbox Polylabel algorithm, which determines optimum label placement on a polygon by calculating its pole of inaccessibility. The library has an FFI wrapper, and a sample Python script which demonstrates its use (I know Shapely also includes the algorithm, but it's a pure-Python implementation, and this one is…somewhat faster)
 
 [![Circles](data/circles_gh.png)](https://github.com/urschrei/Circles "Borges's 'The Circular Ruins' is a good story. Also an apt title for my PhD.")
 
