@@ -1,6 +1,6 @@
 ## Geocomputation, Cartography, and Spatial Analysis Techniques Using Python
 
-[![Inset](data/inset_gh.png)](isochrone.ipynb "Yo Dawg")
+[![Tweetcity](https://github.com/urschrei/CityEngine-Twitter/blob/master/london.png)](http://urschrei.github.io/CityEngine-Twitter/ "Tweet")
 
 This is a repository of various geo/spatial analysis techniques using Python libraries, chiefly Numpy, Pandas, Shapely, Fiona, Descartes, Matplotlib, and Matplotlib-Basemap.
 
@@ -9,6 +9,8 @@ These tutorials, visualisations, and libraries are an occasional side effect of 
 [![CASA](data/casa_black.png)](http://www.bartlett.ucl.ac.uk/casa/programmes/postgraduate "Bloomsbury is lovely, you know.")
 
 ### The Notebooks
+
+[![Inset](data/inset_gh.png)](isochrone.ipynb "Yo Dawg")
 
 [Convert](convert.ipynb): demonstrates point, choropleth, and hexbin mapping techniques using pandas and Matplotlib Basemap  
 
@@ -65,7 +67,7 @@ Note that for most users, the Enthought [Canopy](https://www.enthought.com/produ
 The Rust libraries (though not their Python counterparts) require a Rust installation. For most platforms (OS X, Windows, *nix), using [rustup.rs](https://rustup.rs) is the easiest way to install and update a Rust installation.
 
 ### License  
-© Stephan Hügel 2014  
+© Stephan Hügel 2017  
 
 Unless otherwise specified, the [wards.geojson](wards.geojson) file and any UK shapefiles are provided under
 [Crown Copyright](http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright/crown-copyright/), and their use must be acknowledged in any output by reproducing the following notice:
