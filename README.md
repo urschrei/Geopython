@@ -12,6 +12,10 @@ These tutorials, visualisations, and libraries are an occasional side effect of 
 
 [![Inset](data/inset_gh.png)](isochrone.ipynb "Yo Dawg")
 
+[Airbnb](airbnb.ipynb): mapping Airbnb rental data in London
+
+[![Airbnb](https://github.com/urschrei/geopython/blob/master/rentals_gh.png)](https://github.com/urschrei/geopython/airbnb.ipynb "All that is solid melts into air")
+
 [Convert](convert.ipynb): demonstrates point, choropleth, and hexbin mapping techniques using pandas and Matplotlib Basemap  
 
 [Convert_Folium](convert_folium.ipynb): demonstrates the use of the [Folium](https://github.com/wrobstory/folium) library for creating web-based maps from Python data (pandas) using [Leaflet](http://leafletjs.com) to generate a choropleth map
