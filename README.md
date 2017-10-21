@@ -14,7 +14,7 @@ These tutorials, visualisations, and libraries are an occasional side effect of 
 
 [Airbnb](https://github.com/urschrei/Geopython/blob/master/airbnb.ipynb): mapping Airbnb rental data in London
 
-[![Airbnb](https://github.com/urschrei/geopython/blob/master/rentalsA_gh.png)](https://github.com/urschrei/Geopython/blob/master/airbnb.ipynb "All that is solid melts into air")
+[![Airbnb](https://github.com/urschrei/geopython/blob/master/rentals_gh.png)](https://github.com/urschrei/Geopython/blob/master/airbnb.ipynb "All that is solid melts into air")
 
 [Convert](convert.ipynb): demonstrates point, choropleth, and hexbin mapping techniques using pandas and Matplotlib Basemap  
 
