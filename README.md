@@ -18,6 +18,8 @@ These tutorials, visualisations, and libraries are an occasional side effect of 
 
 [![Boroughs](https://github.com/urschrei/geopython/blob/master/boroughs_gh.png)](https://github.com/urschrei/Geopython/blob/master/airbnb.ipynb "Can I borough a feeling")
 
+[GWR](https://github.com/urschrei/Geopython/blob/master/geographically_weighted_regression.ipynb): An introduction to Geographically Weighted Regression using PySAL, using a worked example.
+
 [Convert](convert.ipynb): demonstrates point, choropleth, and hexbin mapping techniques using pandas and Matplotlib Basemap  
 
 [Convert_Folium](convert_folium.ipynb): demonstrates the use of the [Folium](https://github.com/wrobstory/folium) library for creating web-based maps from Python data (pandas) using [Leaflet](http://leafletjs.com) to generate a choropleth map
