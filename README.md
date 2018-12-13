@@ -11,8 +11,10 @@ These tutorials, visualisations, and libraries are an occasional side effect of 
 ### The Notebooks
 
 [![Hovertube](https://github.com/urschrei/hovertube/blob/master/tube.png)](https://github.com/urschrei/hovertube "Ghostly. vv ghostly")
+Process TfL tube and rail data, and display it using Mapbox GL JS
 
 [![Inset](data/inset_gh.png)](isochrone.ipynb "Yo Dawg")
+TfL bike rental travel time isochrone calculation
 
 [![Airbnb](https://github.com/urschrei/geopython/blob/master/rentals_gh.png)](https://github.com/urschrei/Geopython/blob/master/airbnb.ipynb "All that is solid melts into air")
 
