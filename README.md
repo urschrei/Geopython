@@ -75,11 +75,11 @@ A Rust implementation of the Mapbox Polylabel algorithm, which determines optimu
 ---
 ### Installation and usage
 
-Note that for most users, the Enthought [Canopy](https://www.enthought.com/products/canopy/) Python distribution is probably the best way to get the required libraries (You'll have to install Folium and GeoPandas separately – they aren't included). However, feel free to install the libraries manually using `requirements.txt` if you know what you're doing, in which case you'll also need various compilers (GCC, Fortran), and libraries (GDAL, GEOS). The use of a [virtualenv](http://virtualenv.readthedocs.org/en/latest/) is advised.  
-The Rust libraries (though not their Python counterparts) require a Rust installation. For most platforms (OS X, Windows, *nix), using [rustup.rs](https://rustup.rs) is the easiest way to install and update a Rust installation.
+`pip install -r requirements.txt` or `uv pip install -r requirements.txt`. The use of a [virtualenv](http://virtualenv.readthedocs.org/en/latest/) is advised.  
+The Rust libraries (though not their Python counterparts) require a Rust installation. For most platforms (macOS, Windows, *nix), using [rustup.rs](https://rustup.rs) is the easiest way to install and update a Rust installation.
 
-### License  
-© Stephan Hügel 2017  
+### License
+© Stephan Hügel 2017 - 2025 
 
 Unless otherwise specified, the [wards.geojson](wards.geojson) file and any UK shapefiles are provided under
 [Crown Copyright](http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright/crown-copyright/), and their use must be acknowledged in any output by reproducing the following notice:
