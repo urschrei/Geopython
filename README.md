@@ -75,7 +75,7 @@ A Rust implementation of the Mapbox Polylabel algorithm, which determines optimu
 ---
 ### Installation and usage
 
-`pip install -r requirements.txt` or `uv pip install -r requirements.txt`. The use of a [virtualenv](http://virtualenv.readthedocs.org/en/latest/) is advised.  
+`uv sync` or the `pip` equivalent (in which case you should create and initialised a virtualenv first).  
 The Rust libraries (though not their Python counterparts) require a Rust installation. For most platforms (macOS, Windows, *nix), using [rustup.rs](https://rustup.rs) is the easiest way to install and update a Rust installation.
 
 ### License
