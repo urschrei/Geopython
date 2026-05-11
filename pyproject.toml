@@ -5,6 +5,7 @@ requires-python = ">=3.13"
 dependencies = [
     "geopandas>=1.1.1",
     "httpx>=0.28.1",
+    "ipywidgets>=8.1.8",
     "jupyterlab>=4.5.0",
     "libpysal>=4.13.0",
     "mapclassify>=2.10.0",
