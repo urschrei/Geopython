@@ -559,6 +559,7 @@ dependencies = [
     { name = "libpysal" },
     { name = "mapclassify" },
     { name = "matplotlib" },
+    { name = "matplotlib-scalebar" },
     { name = "mgwr" },
     { name = "numpy" },
     { name = "pillow" },
@@ -579,6 +580,7 @@ requires-dist = [
     { name = "libpysal", specifier = ">=4.14.1" },
     { name = "mapclassify", specifier = ">=2.10.0" },
     { name = "matplotlib", specifier = ">=3.10.9" },
+    { name = "matplotlib-scalebar", specifier = ">=0.9.0" },
     { name = "mgwr", specifier = ">=2.2.1" },
     { name = "numpy", specifier = ">=2.4.4" },
     { name = "pillow", specifier = ">=12.2.0" },
@@ -1273,6 +1275,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/c7/74/97e72a36efd4ae2bccb3463284300f8953f199b5ffbc04cbbb0ec78f74b1/matplotlib_inline-0.2.1.tar.gz", hash = "sha256:e1ee949c340d771fc39e241ea75683deb94762c8fa5f2927ec57c83c4dffa9fe", size = 8110, upload-time = "2025-10-23T09:00:22.126Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/af/33/ee4519fa02ed11a94aef9559552f3b17bb863f2ecfe1a35dc7f548cde231/matplotlib_inline-0.2.1-py3-none-any.whl", hash = "sha256:d56ce5156ba6085e00a9d54fead6ed29a9c47e215cd1bba2e976ef39f5710a76", size = 9516, upload-time = "2025-10-23T09:00:20.675Z" },
+]
+
+[[package]]
+name = "matplotlib-scalebar"
+version = "0.9.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/c5/3d/e76e0e48c96e43b656446c35990824f20136de21940a7436020ab757a54d/matplotlib_scalebar-0.9.0.tar.gz", hash = "sha256:f91adc5e4e67ac920a8fa98a55f904d56e5c2da4d56286748c31ec62146362be", size = 1180588, upload-time = "2025-01-17T22:10:59.349Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a8/c0/2dfab7b319dabe23f5a7b515a797c74b501d15c72e7a03837cf0cf779b9e/matplotlib_scalebar-0.9.0-py3-none-any.whl", hash = "sha256:5140525cd4e0c60bcade541b86571dabaf446fa69192530bd82d60b54601aa79", size = 16411, upload-time = "2025-01-17T22:10:57.319Z" },
 ]
 
 [[package]]
