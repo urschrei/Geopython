@@ -598,7 +598,7 @@ requires-dist = [
     { name = "geopandas", specifier = ">=1.1.4" },
     { name = "httpx", specifier = ">=0.28.1" },
     { name = "ipywidgets", specifier = ">=8.1.8" },
-    { name = "jupyterlab", specifier = ">=4.6.1" },
+    { name = "jupyterlab", specifier = ">=4.6.2" },
     { name = "libpysal", specifier = ">=4.15.0" },
     { name = "mapclassify", specifier = ">=2.10.0" },
     { name = "matplotlib", specifier = ">=3.11.1" },
@@ -606,7 +606,7 @@ requires-dist = [
     { name = "mgwr", specifier = ">=2.2.1" },
     { name = "networkx", specifier = ">=3.6.1" },
     { name = "numpy", specifier = ">=2.5.1" },
-    { name = "osmnx", specifier = ">=2.1.0" },
+    { name = "osmnx", specifier = ">=2.1.1" },
     { name = "pillow", specifier = ">=12.3.0" },
     { name = "pysal", specifier = ">=26.1" },
     { name = "scipy", specifier = ">=1.18.0" },
@@ -1008,7 +1008,7 @@ wheels = [
 
 [[package]]
 name = "jupyterlab"
-version = "4.6.1"
+version = "4.6.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "async-lru" },
@@ -1025,9 +1025,9 @@ dependencies = [
     { name = "tornado" },
     { name = "traitlets" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/bc/2a/d6af53bfd45a43a5bfe7e40ba47ee7a8921a807daf4bb708e3a295bbb54d/jupyterlab-4.6.1.tar.gz", hash = "sha256:75315982ed28427edaa62bb85eadb5105e4043a757643c910efd787fe6ed0837", size = 28179125, upload-time = "2026-06-29T12:48:45.402Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/7a/7f/51c0c856ab286bdaf5709cf61ed13584ed9d4bee906479707da45b11b353/jupyterlab-4.6.2.tar.gz", hash = "sha256:e18ce8b34f3de350e93cd5b2c4f3ae884cbe266eb76bf5d6825a4ed34c13bcff", size = 28183650, upload-time = "2026-07-21T12:05:24.051Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/5a/81/90ac6cc31d248e83a0d1eab343a5e6e68bc783d3f74fbe61640f42a61da4/jupyterlab-4.6.1-py3-none-any.whl", hash = "sha256:85a58546c831f3dce6cf919468c26874c9065e99c42279fb4abb8e1b552a98bb", size = 17164660, upload-time = "2026-06-29T12:48:41.21Z" },
+    { url = "https://files.pythonhosted.org/packages/63/1f/e39b248c76bb3736bc05a9491a6aa1315414c32dea12f548ecc1b24c758e/jupyterlab-4.6.2-py3-none-any.whl", hash = "sha256:5964447036629adfcd3fc0969effc1da6f47d2cbd0a60b2c2eea7c31be0ec6a8", size = 17166703, upload-time = "2026-07-21T12:05:19.818Z" },
 ]
 
 [[package]]
@@ -1511,7 +1511,7 @@ wheels = [
 
 [[package]]
 name = "osmnx"
-version = "2.1.0"
+version = "2.1.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "geopandas" },
@@ -1521,9 +1521,9 @@ dependencies = [
     { name = "requests" },
     { name = "shapely" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ab/30/65083209545c8ca40f9d2fc76d39d4ef9153aa380c62881ed1971123990c/osmnx-2.1.0.tar.gz", hash = "sha256:0175ab8710bb973cb7cc76c33eeddd670d9d2f4b444da08a1080c470844add2b", size = 90147, upload-time = "2026-02-16T22:51:06.522Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/0c/6d/42279fb31b09f0532ec4de90604ee8078adad66b89865887cdf014f651f1/osmnx-2.1.1.tar.gz", hash = "sha256:0785166487d4d8da5a551dac3d1562fe114fb39f3bf66f261c8b4d60baee9295", size = 90368, upload-time = "2026-07-21T19:24:06.779Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/92/4d/ee50f0b6b4532d44c0db5415b7ad896a4d9651dcd7aa9f5729a25fc6f502/osmnx-2.1.0-py3-none-any.whl", hash = "sha256:9d6e7692321a4e40c5ca68ef8b85fbfb550244c4135fe9b55cfd4f810a5c8e2e", size = 104405, upload-time = "2026-02-16T22:51:05.386Z" },
+    { url = "https://files.pythonhosted.org/packages/ed/08/450c5c707493cf3a1da91050cf6b9b92e5279676f28e85d85b81d9e46f85/osmnx-2.1.1-py3-none-any.whl", hash = "sha256:6680c98312a8c327dea01da8ec59328bf1d7b0e0cab42db6ce500d0cb83b87e5", size = 104711, upload-time = "2026-07-21T19:24:05.274Z" },
 ]
 
 [[package]]
