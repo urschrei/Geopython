@@ -612,7 +612,7 @@ requires-dist = [
     { name = "scipy", specifier = ">=1.18.0" },
     { name = "shapely", specifier = ">=2.1.2" },
     { name = "spglm", specifier = ">=1.1.0" },
-    { name = "spreg", specifier = ">=1.8.4" },
+    { name = "spreg", specifier = ">=1.9.1" },
     { name = "statsmodels", specifier = ">=0.14.6" },
 ]
 
@@ -2605,7 +2605,7 @@ wheels = [
 
 [[package]]
 name = "spreg"
-version = "1.9.0"
+version = "1.9.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "libpysal" },
@@ -2614,9 +2614,9 @@ dependencies = [
     { name = "scikit-learn" },
     { name = "scipy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f8/3d/098c8340b033f681d0119e53666d1c0100c7375610e44d48a2eb04efbce2/spreg-1.9.0.tar.gz", hash = "sha256:96e1aa8f762c57c2abf697a4724bba778a09be05b4fac03898ec47515f5fcb4e", size = 631066, upload-time = "2026-03-24T17:32:46.492Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/5b/ed/8a2ee5d9df2eed1993f629a3ec0286ac39db4c236056d23bf774f541c5fe/spreg-1.9.1.tar.gz", hash = "sha256:0633a13383700b79a197664db300bfc1b14c4747d770aa961c4f40c7a7577179", size = 636411, upload-time = "2026-07-27T20:39:58.521Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c7/30/041e1a342551bde08b65e5ba2c3830b90e8dfef335648f2a666b5ec6cb79/spreg-1.9.0-py3-none-any.whl", hash = "sha256:e2ce5b656dc8e6b46703403fe0e964852bb3b229fe102535082151cf43998544", size = 418855, upload-time = "2026-03-24T17:32:45.062Z" },
+    { url = "https://files.pythonhosted.org/packages/73/23/4f2ddc619df7d49a530ab0afb14540944c9968be29c02090a4b5555d79ea/spreg-1.9.1-py3-none-any.whl", hash = "sha256:8a007fc28f4acf14a03aac3ed8d9b19ca4328bf2acc8a6bddba062b14ad05aaa", size = 421708, upload-time = "2026-07-27T20:39:57.254Z" },
 ]
 
 [[package]]
