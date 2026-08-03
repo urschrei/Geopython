@@ -20,6 +20,6 @@ dependencies = [
     "scipy>=1.18.0",
     "shapely>=2.1.2",
     "spglm>=1.1.0",
-    "spreg>=1.8.4",
+    "spreg>=1.9.1",
     "statsmodels>=0.14.6",
 ]
