@@ -1153,7 +1153,7 @@ wheels = [
 
 [[package]]
 name = "libpysal"
-version = "4.15.0"
+version = "4.15.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beautifulsoup4" },
@@ -1168,9 +1168,9 @@ dependencies = [
     { name = "scipy" },
     { name = "shapely" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/54/94/7b7d286e65b66db8bcd0eb18accae8d68501b432cb7255fe9d264338cf22/libpysal-4.15.0.tar.gz", hash = "sha256:db9eee1579678a2eec6974c831dc93abf612a4df5a3c45e9d7ed35ea5f9e2497", size = 6776607, upload-time = "2026-07-03T14:44:42.538Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/31/ae/635085d48ac69a4b723d56a38101688eabea2c72606f78a50cd31eb95922/libpysal-4.15.1.tar.gz", hash = "sha256:df4d91e93b6cdf3c9d3a47ae9c0ce6efa85502b227496a36178facafd594c4d1", size = 6778262, upload-time = "2026-10-22T18:41:20.11Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/da/45/ede6d644008022592ba97211a562eca7cce527a0adc061028716fa20d34f/libpysal-4.15.0-py3-none-any.whl", hash = "sha256:081b603c385dd237254b5698e524a0f072b1698db0ceca33c6dcecdbdbedeb6e", size = 2525426, upload-time = "2026-07-03T14:44:40.45Z" },
+    { url = "https://files.pythonhosted.org/packages/86/4b/9456e95f8d30a3bb6022b8bbe5ab9b9c15eb4d355529084da5073ca08cab/libpysal-4.15.1-py3-none-any.whl", hash = "sha256:50b723d7e14600c9cd6ddb639ee3849c42673ac12ac785100dc7a40b97462238", size = 2523171, upload-time = "2026-10-22T18:41:18.093Z" },
 ]
 
 [[package]]
