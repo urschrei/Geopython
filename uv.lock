@@ -1005,7 +1005,7 @@ wheels = [
 
 [[package]]
 name = "jupyterlab"
-version = "4.6.5"
+version = "4.6.6"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "async-lru" },
@@ -1022,9 +1022,9 @@ dependencies = [
     { name = "tornado" },
     { name = "traitlets" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/22/60/95238fb78af6a6838b63a05437951856cd82946b672028788b8aaf3ec5f7/jupyterlab-4.6.5.tar.gz", hash = "sha256:e115a0ef663927d60afd20bd9a8e822a5c61d7d22bcab489d8e37f4885d0d2ce", size = 28393095, upload-time = "2026-10-29T12:57:55.261Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/51/43/490a500e421a46900c8afb0c912c1bf3c9977c85831a3815e2c2139309a9/jupyterlab-4.6.6.tar.gz", hash = "sha256:5f6fbb409158167aeefb5781d6f0b228e24b493cb6e6f1320fb5bc8897acc223", size = 28406802, upload-time = "2026-11-06T14:02:39.228Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/41/8f/58a539ef036aca50891a06b283f044da84a6544177fb6e49217c5c5206c9/jupyterlab-4.6.5-py3-none-any.whl", hash = "sha256:cb96fc3d59d20b6f17d0cc1afe6e0508a61d881ab39be89236c55b01fa0e2b99", size = 17331695, upload-time = "2026-10-29T12:57:51.281Z" },
+    { url = "https://files.pythonhosted.org/packages/69/f0/842ff0c6ed2e9a4d027d32576813ef92c014f72743a3e745e0a9ce9df24b/jupyterlab-4.6.6-py3-none-any.whl", hash = "sha256:4261910ccf1ecad6e0b3ca0debe96d4fde9735bfc9707509c125aab850e06b81", size = 17334944, upload-time = "2026-11-06T14:02:30.924Z" },
 ]
 
 [[package]]
@@ -2714,7 +2714,7 @@ wheels = [
 
 [[package]]
 name = "spreg"
-version = "1.9.1"
+version = "1.9.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "libpysal" },
@@ -2723,9 +2723,9 @@ dependencies = [
     { name = "scikit-learn" },
     { name = "scipy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/5b/ed/8a2ee5d9df2eed1993f629a3ec0286ac39db4c236056d23bf774f541c5fe/spreg-1.9.1.tar.gz", hash = "sha256:0633a13383700b79a197664db300bfc1b14c4747d770aa961c4f40c7a7577179", size = 636411, upload-time = "2026-07-27T20:39:58.521Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f6/15/7587aab63a7297a6845c9e452a8599eeed2d3a033a077c7474af3c64f45d/spreg-1.9.2.tar.gz", hash = "sha256:ac84ed5058528ce0488d9a918ce3223555c7e035710605a9da6994b9371fd095", size = 647808, upload-time = "2026-11-09T23:08:43.626Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/73/23/4f2ddc619df7d49a530ab0afb14540944c9968be29c02090a4b5555d79ea/spreg-1.9.1-py3-none-any.whl", hash = "sha256:8a007fc28f4acf14a03aac3ed8d9b19ca4328bf2acc8a6bddba062b14ad05aaa", size = 421708, upload-time = "2026-07-27T20:39:57.254Z" },
+    { url = "https://files.pythonhosted.org/packages/23/2a/fa79cf3d6d76038e6817644ea0f6253117e4f5ba6e51a61c843fc604b39a/spreg-1.9.2-py3-none-any.whl", hash = "sha256:8557d5e1490caf36a933682766146513e69b4e570b9cca8c6b79457ef61e2d99", size = 422687, upload-time = "2026-11-09T23:08:42.069Z" },
 ]
 
 [[package]]
